@@ -227,5 +227,5 @@ Route::get('/', function () {
             ],
         ],
     ];
-    return view('home',$data);
+    return view('layout/home',$data);
 })-> name('home');
