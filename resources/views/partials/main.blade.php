@@ -18,8 +18,9 @@
         </div>
         <div class="load">
             <div class="loadmore">
-                LOADMORE
+                LOAD MORE
             </div>
         </div>
     </div>
+    @include('partials.card')
 </main>

@@ -119,6 +119,36 @@ ul li {
         color: white;
         display: inline-block;
         background-color: #0282F9;
+        margin-bottom: 25px;
         
+}
+
+.cardnav{
+    background-color: #0282F9;
+    width: 100%;
+    padding: 30px;
+}
+
+.cardnav ul{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.cardnav ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 100%;
+}
+
+.cardnav ul li img{
+    margin-right: 10px;
+    width: 60px;
+}
+
+.uppercase{
+    text-transform: uppercase;
 }
 

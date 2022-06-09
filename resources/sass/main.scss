@@ -54,3 +54,30 @@
     }
 }
 
+.cardnav{
+    background-color: #0282F9;
+    width: 100%;
+    padding: 30px;
+
+    ul{
+        display: flex;
+        width: 80%;
+        margin: auto;
+        li{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            img{
+                margin-right: 10px;
+                width: 45px;
+            }
+        }
+    }
+}
+.uppercase{
+    text-transform: uppercase;
+}
+
+
+
