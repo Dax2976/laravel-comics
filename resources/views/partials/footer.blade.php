@@ -44,11 +44,33 @@
                     <li>DC Power Visa</li>
                 </ul>
             </div>
-            {{-- <div class="copyright">
-                <span>All Site Cantent TM and € 2020 DC Entertainment, unless otherwise noted here. All rights reserved</span>
-            </div> --}}
+           
         </div>
-        <div class="imgFooter">
+        <div class="imgFooter"></div>
+    </div>
+    <div class="footerbot">
+        <div class="container">
+            <div class="">
+                <a href="#">SIGN UP NOW</a>
+            </div>
+            <div class="social">
+                <h4>FOLLOW US</h4>
+            </div>
+            <div>
+                <img src="{{('images/footer-facebook.png')}}" alt="">
+            </div>
+            <div>
+                <img src="{{('images/footer-twitter.png')}}" alt="">
+            </div>
+            <div>
+                <img src="{{('images/footer-youtube.png')}}" alt="">
+            </div>
+            <div>
+                <img src="{{('images/footer-pinterest.png')}}" alt="">
+            </div>
+            <div>
+                <img src="{{('images/footer-periscope.png')}}" alt="">
+            </div>
         </div>
     </div>
 </footer>

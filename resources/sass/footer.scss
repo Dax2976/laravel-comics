@@ -39,3 +39,32 @@ h4{
     background-repeat: no-repeat;
     background-position: center;
 }
+
+
+.footerbot{
+    .container{
+        width: 80%;
+        margin: 0 auto;
+        padding: 40px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    a{
+        padding: 10px;
+        border: 2px solid #0282F9;
+        text-decoration: none;
+        color: white;
+    }
+    h4{
+        color: #0282F9;
+    }
+    .social{
+        display: flex;
+        align-items: center;
+    }
+    .social div{
+        margin: 0 10px;
+    }
+    background-color: #303030;
+} 
