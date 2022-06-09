@@ -33,6 +33,11 @@ nav a {
   text-decoration: none;
 }
 
+nav a:hover{
+    border-bottom:4px solid #0282F9 ;
+    padding-bottom: 44px;
+}
+
 nav ul {
   width: 100%;
   display: flex;
@@ -151,4 +156,52 @@ ul li {
 .uppercase{
     text-transform: uppercase;
 }
+
+
+li{
+    list-style: none;
+    text-align: left;
+    font-size: 0.8em;
+    color: #959595;
+    text-transform: capitalize;
+    margin: 5px 5px;
+}
+h4{
+    margin: 20px 0;
+    color: white;
+    text-transform: uppercase;
+}
+
+.colonna{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 0 40px;
+}
+
+.containerbt{
+    display: flex;
+    padding: 10px 0;
+    width: 80%;
+}
+
+.bgFooter{
+    background-image: url('../images/footer-bg.jpg');
+    height: 400px;
+    display: flex;
+    align-items: center;    
+    width: 100%;
+    padding: 0 250px;
+}
+
+.imgFooter{
+    background-image: url('../images/dc-logo-bg.png');
+    height: 100%;
+    width: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
 

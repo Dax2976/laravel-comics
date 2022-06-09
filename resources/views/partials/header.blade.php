@@ -1,7 +1,7 @@
 <header>
     <div class="headerBlutop">
         <div>
-            <span>DC POWER VISA</span>
+            <span>DC POWER VISA ®</span>
             <span>ADDITIONAL DC SITES</span>
         </div>
         

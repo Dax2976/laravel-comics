@@ -1,0 +1,41 @@
+li{
+    list-style: none;
+    text-align: left;
+    font-size: 0.8em;
+    color: #959595;
+}
+h4{
+    margin: 20px 0;
+    color: white;
+}
+
+.colonna{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 0 40px;
+}
+
+.containerbt{
+    display: flex;
+    padding: 10px 0;
+    width: 80%;
+}
+
+.bgFooter{
+    background-image: url('../images/footer-bg.jpg');
+    height: 400px;
+    display: flex;
+    align-items: center;    
+    width: 100%;
+    padding: 0 250px;
+}
+
+.imgFooter{
+    background-image: url('../images/dc-logo-bg.png');
+    height: 100%;
+    width: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
