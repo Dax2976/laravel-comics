@@ -1,0 +1,44 @@
+.headerBlutop{
+    background-color: #0282f9;
+    div{
+        width: 80%;
+        margin: 0 auto;
+        text-align: right;
+        span{
+            margin: 0 10px;
+            color: white;
+        }
+    }
+}
+
+nav{
+    padding-top: 10px;
+    img{
+        margin-right: 100px;
+    }
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    a{
+        color: black;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+    ul{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        font-weight: 600;    
+    }
+
+    input{
+        border: none;
+        margin-left: 20px;
+        border-bottom: 2px solid #0282f9;
+        &:active{
+            border: none;
+            padding: 0;
+        }
+    }
+}
