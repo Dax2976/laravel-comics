@@ -1,11 +1,14 @@
 <header>
     <div class="headerBlutop">
-        <span>DC POWER VISA</span>
-        <span>ADDITIONAL DC SITES</span>
+        <div>
+            <span>DC POWER VISA</span>
+            <span>ADDITIONAL DC SITES</span>
+        </div>
+        
     </div>
     <div class="">
         <nav>
-            <img src="{{('public/images/dc-logo.png')}}" alt="">
+            <img src="{{('/images/dc-logo.png')}}" alt="">
             <ul>
                 <li>
                     <a href="">characters</a>

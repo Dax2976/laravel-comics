@@ -8,6 +8,7 @@
 
 <body>
     @include('partials.header')
+    @include('partials.main')
 </body>
 
 </html>
