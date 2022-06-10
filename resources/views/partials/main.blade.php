@@ -1,4 +1,3 @@
-<main>
     <div class="jumbotron">
 
     </div>
@@ -8,10 +7,12 @@
         </div>
         <div class="container">
             <div class="cardcont">
-                @foreach ($comics as $comic)
+                @foreach ($comics as $key =>$comic)
                     <div class="box">
-                        <img src="{{$comic['thumb']}}" alt="">
-                        <div class="description">{{$comic['title']}}</div>
+                        <a href="{{route('prodotto',['id' => $key])}}">
+                            <img src="{{$comic['thumb']}}" alt="">
+                            <div class="description">{{$comic['title']}}</div>
+                        </a>
                     </div> 
                 @endforeach
             </div>
@@ -23,4 +24,3 @@
         </div>
     </div>
     @include('partials.card')
-</main>
